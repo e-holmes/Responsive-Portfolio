@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "  ";
+    display:block;
+    clear: both;
+    }
+
+
+
+body {
+    margin:0px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bananas/bananas.png");
+}
+
+
+header { 
+    position:relative;top:0%;left:0;right:0;height:90px;
+    width:100%;
+    background: #ffffff;
+    margin-bottom:5%;
+    border-bottom:solid 2px #cccccc;
+    }
+
+    .name{
+        background:#4aaaa5;
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin:0%;
+        padding-top:10px;
+        position:absolute;top:0%;left:10%;
+        text-align:center;        
+        width:25%;
+        height:100%;
+    }
+    
+
+    .clearfix{position:relative;top:0%;right:20%;}
+
+    .Contact{
+        color:#777777;
+        float:right;
+        font-size: 15px;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-left:15px;
+    }
+
+    .Portfolio{
+        color:#777777;
+        float:right;
+        font-size: 15px;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-left:15px;
+        padding-right:10px;
+    }
+
+    .about{
+        color:#777777;
+        float:right;
+        font-size: 15px;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-right:10px;
+    }
+
+
+
+.section {
+    background: #ffffff;
+    border:solid 2px #dddddd;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: 5%;
+    padding-top: 2%;
+    padding-right:2%;
+    padding-left:2%;
+    padding-bottom:1%;
+    text-align: left;
+
+
+}
+
+.AM_photo {
+    float: left;
+    width:150px;
+    margin:10px;
+}
+
+article {
+    border-top:2px solid darkgrey;
+    margin-top:2%;
+
+
+}
+
+.p1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:2;
+    margin:2%;
+    color:#777777;
+}
+
+.undo::after{
+    content: "  ";
+    display:block;
+    clear: both;
+    }
+
+.cp1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#777777;
+}
+
+input{
+    color:#777777;
+    float:left;
+    width:100%;
+    height:35px;
+}
+
+.Minput{
+    height:150px;
+}
+
+.button{
+    font-size:15px;
+    text-align:center;
+    background-color:#4aaaa5;
+    border-color:#4aaaa5;
+    color:#ffffff;
+    width:80px;
+    height:30px;
+    padding-top:5px;
+    margin-top:20px;
+}
+
+footer {
+    height:50px;
+    margin-top:5%;
+    position:static;bottom:0;left:0;right:0;
+    height:80px;
+    background: #666666;
+}
+
+.photos{
+    padding-top:30px;
+}
+.pic1{
+    width: 40%;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+
+
+@media screen and (max-width: 980px){
+footer{
+    position:relative;bottom:0;left:0;right:0;
+}
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        position:relative;bottom:0;left:0;right:0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    footer{
+        position:relative;bottom:0;left:0;right:0;
+    }
+}
